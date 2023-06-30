@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Cómo los autos se volvieron el centro del diseño de las calles</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <!-- Primary Meta Tags -->
     <title>Las desigualdades educativas que ocultan los medalleros de las Olimpiadas Científicas</title>
     <meta name="title" content="Las desigualdades educativas que ocultan los medalleros de las Olimpiadas Científicas">
@@ -35,7 +36,7 @@
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box
+            box-sizing: border-box;
         }
 
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Patua+One&display=swap');
@@ -55,12 +56,15 @@
             line-height: 1.1;
             margin: 0;
             padding: 0;
-            font-size: 38px;
+            font-size: 30px;
             text-align: center;
+            margin-top: 1rem;
         }
 
         iframe {
             border: none;
+            aspect-ratio: 16/9;
+            width: 100%;
         }
 
         a {
@@ -82,27 +86,32 @@
         }
 
         .texto {
-            padding: 4rem;
+            padding-inline: min(30vw, 5%);
             text-align: left;
             color: black;
             background-color: #fffdfb;
+            font-size: 16px;
         }
 
-        .texto-2{
-            padding: 4rem;
+        .texto-2 {
+            padding-inline: min(30vw, 5%);
             text-align: left;
             color: white;
             background-color: rgb(22, 22, 22);
+            font-size: 16px;
+
         }
 
-        .texto-3{
-            padding: 4rem;
+        .texto-3 {
+            padding-inline: min(30vw, 5%);
             text-align: left;
             color: black;
             background-color: #fffdfb;
+            font-size: 16px;
+
         }
 
-        .logo-cont{
+        .logo-cont {
             display: flex;
             height: 200px;
             flex-direction: column;
@@ -110,11 +119,11 @@
             justify-content: center;
         }
 
-        .logociudatos{
+        .logociudatos {
             margin-top: 20px;
         }
 
-        .logolab{
+        .logolab {
             margin-top: 20px;
         }
 
@@ -207,10 +216,10 @@
             padding: 1rem;
         }
 
-        .cita{
+        .cita {
             display: flex;
             text-align: center;
-            font-size: 22px;
+            font-size: 16px;
             padding: 2rem;
         }
 
@@ -246,10 +255,11 @@
             }
         }
 
-        @media screen and (min-width: 1080px){
+        @media screen and (min-width: 1080px) {
             #outro {
                 margin: 0 20rem;
             }
+
             #texto {
                 margin: 0 20rem;
             }
@@ -318,62 +328,93 @@
 
             <article class="article__center">
                 <div class="step" data-step="0">
-                    <p>Estas fotografías muestran un día típico en zonas centrales de tres ciudades bolivianas.  De izquierda a derecha: la Ceja de El Alto, la avenida Ayacucho de Cochabamba, y finalmente, el mercado campesino de Tarija.
+                    <p>Estas fotografías muestran un día típico en zonas centrales de tres ciudades bolivianas. De
+                        izquierda a derecha: la Ceja de El Alto, la avenida Ayacucho de Cochabamba, y finalmente, el
+                        mercado campesino de Tarija.
                     </p>
                 </div>
 
                 <div class="step" data-step="0">
-                    <p>A primera vista, nada fuera de lo ordinario. ¿Pero qué sucede si pintamos las distintas regiones de la calle en función a quién la ocupa?
+                    <p>A primera vista, nada fuera de lo ordinario. ¿Pero qué sucede si pintamos las distintas regiones
+                        de la calle en función a quién la ocupa?
                     </p>
                 </div>
 
                 <div class="step" data-step="1">
-                    <p>En rojo, marcamos el espacio para los automóviles; en celeste, el espacio de los peatones; y en verde, el espacio de las plantas y árboles.
+                    <p>En rojo, marcamos el espacio para los automóviles; en celeste, el espacio de los peatones; y en
+                        verde, el espacio de las plantas y árboles.
                     </p>
                 </div>
 
                 <div class="step" data-step="1">
-                    <p>Es bastante claro que el diseño de las calles está favoreciendo a los automóviles. De hecho, si medimos la cantidad de pixeles que ocupa el asfalto en cada foto, casi el 80% del espacio transitable se está dedicando a los automóviles, en detrimento de los peatones y las áreas verdes.
+                    <p>Es bastante claro que el diseño de las calles está favoreciendo a los automóviles. De hecho, si
+                        medimos la cantidad de pixeles que ocupa el asfalto en cada foto, casi el 80% del espacio
+                        transitable se está dedicando a los automóviles, en detrimento de los peatones y las áreas
+                        verdes.
                     </p>
                 </div>
 
                 <div class="step" data-step="2">
-                    <p>En el caso del mercado campesino de Tarija y La Ceja; la falta de espacios obliga a los peatones a caminar sobre vía, exponiéndolos al riesgo de sufrir accidentes.
+                    <p>En el caso del mercado campesino de Tarija y La Ceja; la falta de espacios obliga a los peatones
+                        a caminar sobre vía, exponiéndolos al riesgo de sufrir accidentes.
                     </p>
                 </div>
 
                 <div class="step" data-step="3">
-                    <p>Este es el distribuidor Beijing en la ciudad de Cochabamba, una construcción masiva de redes vehiculares que conectan la Av. Beijing con la carretera Blanco Galindo. Es el distribuidor vehicular más grande de Bolivia y <a href="https://www.lostiempos.com/actualidad/local/20160913/cochabamba-estrena-distribuidor-mas-grande">se estima que costó 116 millones de Bolivianos.</a>
+                    <p>Este es el distribuidor Beijing en la ciudad de Cochabamba, una construcción masiva de redes
+                        vehiculares que conectan la Av. Beijing con la carretera Blanco Galindo. Es el distribuidor
+                        vehicular más grande de Bolivia y <a
+                            href="https://www.lostiempos.com/actualidad/local/20160913/cochabamba-estrena-distribuidor-mas-grande">se
+                            estima que costó 116 millones de Bolivianos.</a>
                     </p>
                 </div>
 
                 <div class="step" data-step="4">
-                    <p>En su punto más ancho, antes de juntarse con la infraestructura de autopistas que forman un anillo de concreto gigante, la avenida se extiende hasta 18 carriles, separados únicamente por una pequeña jardinera que divide el tráfico en dos direcciones.
+                    <p>En su punto más ancho, antes de juntarse con la infraestructura de autopistas que forman un
+                        anillo de concreto gigante, la avenida se extiende hasta 18 carriles, separados únicamente por
+                        una pequeña jardinera que divide el tráfico en dos direcciones.
                     </p>
                 </div>
 
                 <div class="step" data-step="4">
-                    <p>Para que los vehículos puedan moverse a grandes velocidades sin ser interrumpidos, la avenida Blanco Galindo tiene muy pocos semáforos y pasos peatonales. En su lugar, se han construido decenas de pasarelas; infraestructuras que, además de ser mucho más caras que una simple señalización, son difíciles de cruzar para niños, mujeres embarazadas o personas de tercera edad.
+                    <p>Para que los vehículos puedan moverse a grandes velocidades sin ser interrumpidos, la avenida
+                        Blanco Galindo tiene muy pocos semáforos y pasos peatonales. En su lugar, se han construido
+                        decenas de pasarelas; infraestructuras que, además de ser mucho más caras que una simple
+                        señalización, son difíciles de cruzar para niños, mujeres embarazadas o personas de tercera
+                        edad.
                     </p>
                 </div>
 
                 <div class="step" data-step="5">
-                    <p>Aquí, recurrentemente se registran accidentes automovilísticos, atropellos a peatones y daño a las propiedades cercanas. El trayecto está lleno de postes de luz caídos, verjas torcidas y tumbas simbólicas en honor a la gente que perdió la vida en algún accidente. No por nada en Cochabamba se conoce a la Blanco Galindo como la "Avenida de la Muerte".
+                    <p>Aquí, recurrentemente se registran accidentes automovilísticos, atropellos a peatones y daño a
+                        las propiedades cercanas. El trayecto está lleno de postes de luz caídos, verjas torcidas y
+                        tumbas simbólicas en honor a la gente que perdió la vida en algún accidente. No por nada en
+                        Cochabamba se conoce a la Blanco Galindo como la "Avenida de la Muerte".
                     </p>
                 </div>
 
                 <div class="step" data-step="5">
-                    <p>Esta tendencia en el diseño de las vías urbanas está tomando mucha fuerza en país. Los gobiernos municipales de las más importantes ciudades constantemente anuncian la ampliación de varias avenidas y calles, y la construcción pasos a desnivel.
+                    <p>Esta tendencia en el diseño de las vías urbanas está tomando mucha fuerza en país. Los gobiernos
+                        municipales de las más importantes ciudades constantemente anuncian la ampliación de varias
+                        avenidas y calles, y la construcción pasos a desnivel.
                     </p>
                 </div>
 
                 <div class="step" data-step="5">
-                    <p>Los Planes de Movilidad Urbana nos indican que, por ejemplo, en ciudades como Cochabamba y La Paz, <a href="https://es.scribd.com/document/412940130/Plan-Maestro-de-Movilidad-Urbana-Sustentable-para-el-Area-Metropolitana-de-Cochabamba">aproximadamente el 26%</a> y <a href="https://onumujeresbolivia.exposure.co/estudio-movilidad-urbana">20% de la población se moviliza a pie o en bicicleta</a>, respectivamente. Ya sea para ir al trabajo, para ir de compras, a la escuela, o buscar entretenimiento, los bolivianos no sólo nos movemos en automóvil, también caminamos.
+                    <p>Los Planes de Movilidad Urbana nos indican que, por ejemplo, en ciudades como Cochabamba y La
+                        Paz, <a
+                            href="https://es.scribd.com/document/412940130/Plan-Maestro-de-Movilidad-Urbana-Sustentable-para-el-Area-Metropolitana-de-Cochabamba">aproximadamente
+                            el 26%</a> y <a href="https://onumujeresbolivia.exposure.co/estudio-movilidad-urbana">20% de
+                            la población se moviliza a pie o en bicicleta</a>, respectivamente. Ya sea para ir al
+                        trabajo, para ir de compras, a la escuela, o buscar entretenimiento, los bolivianos no sólo nos
+                        movemos en automóvil, también caminamos.
                     </p>
                 </div>
 
                 <div class="step" data-step="5">
-                    <p>Sin embargo, las vías en las ciudades bolivianas se están construyendo para servir un sólo tipo  de transporte, el transporte motorizado, dejando de lado a los peatones y ciclistas, poniéndolos en riesgo, incrementando las posibilidades de más accidentes automovilísticos.
+                    <p>Sin embargo, las vías en las ciudades bolivianas se están construyendo para servir un sólo tipo
+                        de transporte, el transporte motorizado, dejando de lado a los peatones y ciclistas, poniéndolos
+                        en riesgo, incrementando las posibilidades de más accidentes automovilísticos.
                     </p>
                 </div>
 
@@ -386,21 +427,34 @@
 
         <section class="texto">
             <div>
-                <h1>El olvido de los peatones. Cómo los automóviles se convirtieron en el centro del diseño de las ciudades bolivianas</h1>
+                <h1>El olvido de los peatones. Cómo los automóviles se convirtieron en el centro del diseño de las
+                    ciudades bolivianas</h1>
                 <br>
                 <p style="text-align: right">Proyecto:
                     <a href="https://ciudatos-bolivia.org/">Ciudatos Bolivia</a> 🏙
                 </p>
                 <p>Los autos no son necesariamente malos.</p>
                 <br>
-                <p>El automóvil es una de las formas más efectivas que tenemos para movernos de un lugar a otro por las ciudades y a través de grandes distancias. Los autos transportan personas, bienes y recursos que son fundamentales para la economía y el abastecimiento de la población.</p>
+                <p>El automóvil es una de las formas más efectivas que tenemos para movernos de un lugar a otro por las
+                    ciudades y a través de grandes distancias. Los autos transportan personas, bienes y recursos que son
+                    fundamentales para la economía y el abastecimiento de la población.</p>
                 <br>
-                <p>De hecho, en Bolivia, moverse en automóvil tiene muchas ventajas. Por ejemplo, <a href="https://www.larepublica.co/globoeconomia/conozca-cuanto-cuesta-el-transporte-publico-en-los-paises-de-america-latina-2923276">el precio transporte público es bastante accesible en comparación a otros países de la región</a>. Además, las líneas de transporte público son bastante eficientes en términos espaciales, pues <a href="https://www.redalyc.org/journal/1931/193173030033/html/">llegan incluso hasta los barrios más alejados y periféricos</a>.</p>
+                <p>De hecho, en Bolivia, moverse en automóvil tiene muchas ventajas. Por ejemplo, <a
+                        href="https://www.larepublica.co/globoeconomia/conozca-cuanto-cuesta-el-transporte-publico-en-los-paises-de-america-latina-2923276">el
+                        precio transporte público es bastante accesible en comparación a otros países de la región</a>.
+                    Además, las líneas de transporte público son bastante eficientes en términos espaciales, pues <a
+                        href="https://www.redalyc.org/journal/1931/193173030033/html/">llegan incluso hasta los barrios
+                        más alejados y periféricos</a>.</p>
                 <br>
                 <div class="flourish-embed" data-src="visualisation/14297542">
                     <script src="https://public.flourish.studio/resources/embed.js"></script>
                 </div>
-                <p>Además, lo más importante es que miles de bolivianos trabajan en el rubro del trasporte. De acuerdo con la <a href="https://www.ine.gob.bo/index.php/boletin-estadistico-encuesta-continua-de-empleo-ece-4t-2022/">Encuesta continua de empleo del cuarto trimestre de 2022</a>, 435 mil personas en el país se dedican al transporte, siendo la mayoría informales, afiliadas a sindicatos o cooperativas. Es decir, ¿quién no conoce a alguien que alguna vez ha trabajado como transportista?</p>
+                <p>Además, lo más importante es que miles de bolivianos trabajan en el rubro del trasporte. De acuerdo
+                    con la <a
+                        href="https://www.ine.gob.bo/index.php/boletin-estadistico-encuesta-continua-de-empleo-ece-4t-2022/">Encuesta
+                        continua de empleo del cuarto trimestre de 2022</a>, 435 mil personas en el país se dedican al
+                    transporte, siendo la mayoría informales, afiliadas a sindicatos o cooperativas. Es decir, ¿quién no
+                    conoce a alguien que alguna vez ha trabajado como transportista?</p>
         </section>
 
         <section class="scrolly" data-flourishid="1965674">
@@ -411,55 +465,81 @@
 
             <article class="article__center">
                 <div class="step" data-step="0">
-                    <p>La historia de los automóviles en Bolivia comienza a finales del siglo XIX e inicios del siglo XX.
+                    <p>La historia de los automóviles en Bolivia comienza a finales del siglo XIX e inicios del siglo
+                        XX.
                     </p>
                 </div>
 
                 <div class="step" data-step="0">
-                    <p>Hacia 1900, figuras como Nicolás Suarez, el gran empresario de la goma en -la entonces aislada- Santa Cruz; Arthur Posnansky, investigador austrohúngaro nacionalizado boliviano; y el comerciante cochabambino Jesús Aguayo, trajeron los primeros automóviles al país.
+                    <p>Hacia 1900, figuras como Nicolás Suarez, el gran empresario de la goma en -la entonces aislada-
+                        Santa Cruz; Arthur Posnansky, investigador austrohúngaro nacionalizado boliviano; y el
+                        comerciante cochabambino Jesús Aguayo, trajeron los primeros automóviles al país.
                     </p>
                 </div>
 
                 <div class="step" data-step="1">
-                    <p>Para la década de 1930, comenzaron a aparecer las primeras asociaciones de transporte motorizado urbano, que poco a poco fueron reemplazando a los tranvías eléctricos. Los primeros buses y colectivos eran adaptaciones de los modelos de automóvil de la época y se los conocía como "cajitas" o "chaucheros".
+                    <p>Para la década de 1930, comenzaron a aparecer las primeras asociaciones de transporte motorizado
+                        urbano, que poco a poco fueron reemplazando a los tranvías eléctricos. Los primeros buses y
+                        colectivos eran adaptaciones de los modelos de automóvil de la época y se los conocía como
+                        "cajitas" o "chaucheros".
                     </p>
                 </div>
 
                 <div class="step" data-step="1">
-                    <p>Aquí nacen las primeras asociaciones de transporte público, como por ejemplo, en La Paz, la línea de micros 2, <a href="https://amun.bo/evolucion-de-la-linea-2-de-chaucheritas-a-colectivo-micro-y-jumbo/">fundada en 1938</a>.
+                    <p>Aquí nacen las primeras asociaciones de transporte público, como por ejemplo, en La Paz, la línea
+                        de micros 2, <a
+                            href="https://amun.bo/evolucion-de-la-linea-2-de-chaucheritas-a-colectivo-micro-y-jumbo/">fundada
+                            en 1938</a>.
                     </p>
                 </div>
 
                 <div class="step" data-step="1">
-                    <p>Desde de 1940, las ciudades bolivianas crecieron enormemente y con ellas la necesidad de más líneas de transporte y caminos. Se construyeron nuevos barrios en la periferias urbanas y los sindicatos de transporte vieron allí una oportunidad para crear nuevas rutas.
+                    <p>Desde de 1940, las ciudades bolivianas crecieron enormemente y con ellas la necesidad de más
+                        líneas de transporte y caminos. Se construyeron nuevos barrios en la periferias urbanas y los
+                        sindicatos de transporte vieron allí una oportunidad para crear nuevas rutas.
                     </p>
                 </div>
 
                 <div class="step" data-step="2">
-                    <p>Entre los 60 y 70, a medida que crecía el parque automotor tanto privado como público, incrementó el congestionamiento vehicular en varias ciudades. Es así que, por ejemplo, en la década del 70, en Cochabamba <a href="https://www.lostiempos.com/actualidad/local/20160912/historias-calles-avenidas-que-marcaron-rumbo?page=3">se ordenó la expropiación y demolición de varias viviendas para ensanchar la Avenida Heroínas y se comenzó a construir la actual avenida Ayacucho</a>.
+                    <p>Entre los 60 y 70, a medida que crecía el parque automotor tanto privado como público, incrementó
+                        el congestionamiento vehicular en varias ciudades. Es así que, por ejemplo, en la década del 70,
+                        en Cochabamba <a
+                            href="https://www.lostiempos.com/actualidad/local/20160912/historias-calles-avenidas-que-marcaron-rumbo?page=3">se
+                            ordenó la expropiación y demolición de varias viviendas para ensanchar la Avenida Heroínas y
+                            se comenzó a construir la actual avenida Ayacucho</a>.
                     </p>
                 </div>
 
                 <div class="step" data-step="2">
-                    <p>En los 80, tras la relocalización minera y el decreto 21060, miles de personas migraron del campo a las ciudades y consiguieron empleo afiliándose a alguna línea de transporte  u ofreciendo sus servicios como taxistas individuales. Al mismo tiempo, muchas familias bolivianas se compraron automóviles de uso particular.
+                    <p>En los 80, tras la relocalización minera y el decreto 21060, miles de personas migraron del campo
+                        a las ciudades y consiguieron empleo afiliándose a alguna línea de transporte u ofreciendo sus
+                        servicios como taxistas individuales. Al mismo tiempo, muchas familias bolivianas se compraron
+                        automóviles de uso particular.
                     </p>
                 </div>
 
                 <div class="step" data-step="3">
-                    <p>En este gráfico podemos ver el enorme crecimiento del parque automotor en Bolivia del 2003 al 2022. Entre estos años, se pasó de 400 mil a 2 millones y medio de motorizados en todo el país.
+                    <p>En este gráfico podemos ver el enorme crecimiento del parque automotor en Bolivia del 2003 al
+                        2022. Entre estos años, se pasó de 400 mil a 2 millones y medio de motorizados en todo el país.
                     </p>
                 </div>
 
                 <div class="step" data-step="3">
-                    <p>Para el año 2000, el automóvil ya se había consolidado como una de las formas más importantes que tenemos para movernos por las ciudades; además de convertirse en una fuente generadora de empleos, tanto para los transportistas afiliados como para los privados.
+                    <p>Para el año 2000, el automóvil ya se había consolidado como una de las formas más importantes que
+                        tenemos para movernos por las ciudades; además de convertirse en una fuente generadora de
+                        empleos, tanto para los transportistas afiliados como para los privados.
                 </div>
 
                 <div class="step" data-step="4">
-                    <p>El crecimiento del parque automotor en las ciudades, como señaló la arquitecta Mercedes Machicado en una entrevista que le hicimos, dio pie a nuevos problemas urbanos, como grandes estancamientos, la contaminación del aire y la crisis de la seguridad vial.
+                    <p>El crecimiento del parque automotor en las ciudades, como señaló la arquitecta Mercedes Machicado
+                        en una entrevista que le hicimos, dio pie a nuevos problemas urbanos, como grandes
+                        estancamientos, la contaminación del aire y la crisis de la seguridad vial.
                 </div>
 
                 <div class="step" data-step="4">
-                    <p>De acuerdo al Instituto Nacional de Estadística, el 2021, se registraron 15.377 accidentes automovilísticos. La mayoría de ellos fueron colisiones, choques a objetos fijos y atropellos por exceso de velocidad.
+                    <p>De acuerdo al Instituto Nacional de Estadística, el 2021, se registraron 15.377 accidentes
+                        automovilísticos. La mayoría de ellos fueron colisiones, choques a objetos fijos y atropellos
+                        por exceso de velocidad.
                 </div>
         </section>
 
@@ -467,36 +547,85 @@
             <div>
                 <h1>Algunas causas y consecuencias del mal diseño de calles</h1>
                 <br>
-                <p>Un buen diseño de calles es capaz dar mayor seguridad a los peatones y reducir el riesgo de accidentes de tránsito. Pero curiosamente, pese al incremento y la gravedad de los accidentes automovilísticos, los gobiernos municipales están invirtiendo millones en distribuidores vehiculares y en el ensanchamiento de avenidas, yendo a contracorriente de los  enfoques más modernos de planificación y diseño urbano.</p>
+                <p>Un buen diseño de calles es capaz dar mayor seguridad a los peatones y reducir el riesgo de
+                    accidentes de tránsito. Pero curiosamente, pese al incremento y la gravedad de los accidentes
+                    automovilísticos, los gobiernos municipales están invirtiendo millones en distribuidores vehiculares
+                    y en el ensanchamiento de avenidas, yendo a contracorriente de los enfoques más modernos de
+                    planificación y diseño urbano.</p>
                 <br>
-                <p>Las nuevas corrientes de planificación urbana, plantean que las ciudades sean más que simples corredores  para vehículos. Los nuevos urbanismos tratan de fomentar la movilidad activa, es decir, moverse por la ciudad caminando o en bicicleta, lo cual trae grandes beneficios para la salud y el medio ambiente. Una de las cosas que se debe hacer para construir una ciudad caminable, precisamente es diseñar las vías pensando también en los peatones: crear aceras más anchas, mejorar la señalización y dar más espacio a ciclovías.</p>
+                <p>Las nuevas corrientes de planificación urbana, plantean que las ciudades sean más que simples
+                    corredores para vehículos. Los nuevos urbanismos tratan de fomentar la movilidad activa, es decir,
+                    moverse por la ciudad caminando o en bicicleta, lo cual trae grandes beneficios para la salud y el
+                    medio ambiente. Una de las cosas que se debe hacer para construir una ciudad caminable, precisamente
+                    es diseñar las vías pensando también en los peatones: crear aceras más anchas, mejorar la
+                    señalización y dar más espacio a ciclovías.</p>
                 <br>
-                <p>Pero uno de los problemas es que los municipios no consideran que el diseño de calles seguras es una responsabilidad suya. En una entrevista con Ximena León, experta en ingeniería del transporte que trabajó varios años en la Alcaldía Municipal de La Paz, nos contó que muchas veces el gobierno omite la inversión en aceras, porque creen que la construcción de estas es una responsabilidad de los vecinos y no un problema público.</p>
+                <p>Pero uno de los problemas es que los municipios no consideran que el diseño de calles seguras es una
+                    responsabilidad suya. En una entrevista con Ximena León, experta en ingeniería del transporte que
+                    trabajó varios años en la Alcaldía Municipal de La Paz, nos contó que muchas veces el gobierno omite
+                    la inversión en aceras, porque creen que la construcción de estas es una responsabilidad de los
+                    vecinos y no un problema público.</p>
                 <br>
-                <q class="cita">Lamentablemente a los funcionarios la acera no les importa. En un proyecto de barrios de ladera en La Paz, nosotros les preguntamos por qué solamente estaban diseñando la vía para el automóvil y ellos nos responden que la acera debería implementarla el vecino. Ahí se ve que lo único que entiende el municipio por movilidad urbana es el diseño de la vía para el vehículo y el resto no importa.</q>
+                <q class="cita">Lamentablemente a los funcionarios la acera no les importa. En un proyecto de barrios de
+                    ladera en La Paz, nosotros les preguntamos por qué solamente estaban diseñando la vía para el
+                    automóvil y ellos nos responden que la acera debería implementarla el vecino. Ahí se ve que lo único
+                    que entiende el municipio por movilidad urbana es el diseño de la vía para el vehículo y el resto no
+                    importa.</q>
                 <br>
-                <p>Dejar esta responsabilidad a los vecinos tiene malos resultados. Por ejemplo, <a href="https://www.academia.edu/97991321/Funciones_mixtas_complejidad_en_el_uso_de_suelo_urbano_de_La_Ceja_de_El_Alto">en una investigación sobre la Ceja de El Alto</a>, se observó que aunque la normativa determina que para construir sobre un terreno se debe destinar el 10% del área a aceras, los dueños construyen sus edificios ocupando el 100% del espacio disponible. Esto es algo que sucede en todas las ciudades bolivianas, en mayor o menor grado.</p>
+                <p>Dejar esta responsabilidad a los vecinos tiene malos resultados. Por ejemplo, <a
+                        href="https://www.academia.edu/97991321/Funciones_mixtas_complejidad_en_el_uso_de_suelo_urbano_de_La_Ceja_de_El_Alto">en
+                        una investigación sobre la Ceja de El Alto</a>, se observó que aunque la normativa determina que
+                    para construir sobre un terreno se debe destinar el 10% del área a aceras, los dueños construyen sus
+                    edificios ocupando el 100% del espacio disponible. Esto es algo que sucede en todas las ciudades
+                    bolivianas, en mayor o menor grado.</p>
                 <br>
-                <p>Pero el diseño de calles también responde a intereses políticos. Como nos indica Bianca de Marchi, Investigadora de movilidad y fronteras de la Universidad Arturo Prat en Chile, las asociaciones de transporte son actores políticos con gran poder de decisión y presión a nivel municipal, que impulsan una agenda de planificación urbana centrada solamente en sus necesidades. Esto, junto con los intereses electorales de los gobiernos municipales, se traducen en un diseño de calles anchas, y la construcción de obras carísimas como pasos a desnivel.</p>
+                <p>Pero el diseño de calles también responde a intereses políticos. Como nos indica Bianca de Marchi,
+                    Investigadora de movilidad y fronteras de la Universidad Arturo Prat en Chile, las asociaciones de
+                    transporte son actores políticos con gran poder de decisión y presión a nivel municipal, que
+                    impulsan una agenda de planificación urbana centrada solamente en sus necesidades. Esto, junto con
+                    los intereses electorales de los gobiernos municipales, se traducen en un diseño de calles anchas, y
+                    la construcción de obras carísimas como pasos a desnivel.</p>
                 <br>
-                <q class="cita">Cuando ves la gestión pública, hay que pensarlo en términos electorales y así entiendes muchas de las cosas que se hacen. Creo que el tema de la infraestructura urbana prácticamente no pasa por ningún filtro de decisión técnica o de un proyecto de ciudad. Lo que importa es llegar al momento del voto (...) Entonces lo que tienes son obras de infraestructura que son electoralmente importantes, que cumplen con ciertos sectores sociales. Los pasos a desnivel y los famosos distribuidores, además, se ven electoralmente simpáticos (...) en muchos casos las obras no responden a lo que necesita realmente la circulación vehicular.</q>
+                <q class="cita">Cuando ves la gestión pública, hay que pensarlo en términos electorales y así entiendes
+                    muchas de las cosas que se hacen. Creo que el tema de la infraestructura urbana prácticamente no
+                    pasa por ningún filtro de decisión técnica o de un proyecto de ciudad. Lo que importa es llegar al
+                    momento del voto (...) Entonces lo que tienes son obras de infraestructura que son electoralmente
+                    importantes, que cumplen con ciertos sectores sociales. Los pasos a desnivel y los famosos
+                    distribuidores, además, se ven electoralmente simpáticos (...) en muchos casos las obras no
+                    responden a lo que necesita realmente la circulación vehicular.</q>
                 <br>
                 <hr class="solid">
                 <br>
-                <p>El poco interés por diseñar calles seguras, y el gran poder con el que cuentan los automóviles en los municipios lleva, además, a una cultura de manejo sumamente irresponsable, y en muchos casos, violenta e ilegal.</p>
+                <p>El poco interés por diseñar calles seguras, y el gran poder con el que cuentan los automóviles en los
+                    municipios lleva, además, a una cultura de manejo sumamente irresponsable, y en muchos casos,
+                    violenta e ilegal.</p>
                 <br>
-                <p>Por ejemplo, en noviembre de 2020, en Cochabamba, <a href="https://www.lostiempos.com/actualidad/cochabamba/20201111/reparan-ciclorruta-piden-respeto-bicicleta">quemaron la infraestructura ciclista de la calle Ecuador</a>, una cicloruta que constantemente es vulnerada. Como se explica en una investigación, en Bolivia <a href="https://bicidatos.org/2021/12/05/incidentes-de-vulneracion-ciclista-en-bolivia/">los conductores invaden con mucha frecuencia las ciclovías, dañando la infraestructura y la integridad física de muchos ciclistas</a>, pese a las prohibiciones municipales.</p>
+                <p>Por ejemplo, en noviembre de 2020, en Cochabamba, <a
+                        href="https://www.lostiempos.com/actualidad/cochabamba/20201111/reparan-ciclorruta-piden-respeto-bicicleta">quemaron
+                        la infraestructura ciclista de la calle Ecuador</a>, una cicloruta que constantemente es
+                    vulnerada. Como se explica en una investigación, en Bolivia <a
+                        href="https://bicidatos.org/2021/12/05/incidentes-de-vulneracion-ciclista-en-bolivia/">los
+                        conductores invaden con mucha frecuencia las ciclovías, dañando la infraestructura y la
+                        integridad física de muchos ciclistas</a>, pese a las prohibiciones municipales.</p>
                 <br>
-                <p>En otros casos,  hay conductores de automóviles o motocicletas que invaden las aceras, tomando el poco espacio que tienen los peatones en las calles. Un caso sumamente grave se dio en Santa Cruz, en agosto de 2022, <a href="https://eldeber.com.bo/santa-cruz/familiares-golpean-a-la-mujer-que-atropello-y-dejo-en-coma-a-un-nino-la-justicia-determino-enviarla-_289813">en el que un motorizado atropelló y asesinó a un niño que caminaba en la acera de su barrio</a>.</p>
+                <p>En otros casos, hay conductores de automóviles o motocicletas que invaden las aceras, tomando el poco
+                    espacio que tienen los peatones en las calles. Un caso sumamente grave se dio en Santa Cruz, en
+                    agosto de 2022, <a
+                        href="https://eldeber.com.bo/santa-cruz/familiares-golpean-a-la-mujer-que-atropello-y-dejo-en-coma-a-un-nino-la-justicia-determino-enviarla-_289813">en
+                        el que un motorizado atropelló y asesinó a un niño que caminaba en la acera de su barrio</a>.
+                </p>
                 <br>
-                <p>Ante la escalada de accidentes automovilísticos e inseguridad vial, el diseño de calles más seguras, la búsqueda de la caminabilidad, y el desarrollo en una cultura automovilística que respete a los peatones debería ser una prioridad política para nuestras ciudades, pero lamentablemente, eso parece estar lejos de suceder.</p>
+                <p>Ante la escalada de accidentes automovilísticos e inseguridad vial, el diseño de calles más seguras,
+                    la búsqueda de la caminabilidad, y el desarrollo en una cultura automovilística que respete a los
+                    peatones debería ser una prioridad política para nuestras ciudades, pero lamentablemente, eso parece
+                    estar lejos de suceder.</p>
             </div>
         </section>
 
         <section class="scrolly">
-                <div class="flourish-embed image__full" data-src="visualisation/14297871">
-                    <script src="https://public.flourish.studio/resources/embed.js"></script>
-                </div>
+            <div class="flourish-embed image__full" data-src="visualisation/14297871">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
             </figure>
         </section>
 
@@ -507,7 +636,8 @@
                 <b>Autoría</b>
                 <p>Valeria Peredo (Redacción)</p>
                 <p>Ever Vino (Visualizaciones interactivas)</p>
-                <p>Natalia Calle, Leonardo Zeballos, Mateo Zubieta, Viviana Silva (Revisión Hemerográfica y fotografías)</p>
+                <p>Natalia Calle, Leonardo Zeballos, Mateo Zubieta, Viviana Silva (Revisión Hemerográfica y fotografías)
+                </p>
                 <br>
                 <b>Entrevistas</b>
                 <p>Mercedes Machicado (Arquitecta, Gobierno Municipal de Tarija)</p>
@@ -524,9 +654,15 @@
                 <br>
                 <h1>Acerca de este proyecto</h1>
                 <br>
-                <p>Un par de meses atrás, en el equipo de Ciudatos Bolivia, nos pusimos a fotografiar calles importantes para el transporte urbano y para la vida dn las ciudades en las que vivimos. Fotografiamos mercados, centros de entretenimiento, avenidas troncales, rotondas y, en general, lugares de gran concentración humana.</p>
+                <p>Un par de meses atrás, en el equipo de Ciudatos Bolivia, nos pusimos a fotografiar calles importantes
+                    para el transporte urbano y para la vida dn las ciudades en las que vivimos. Fotografiamos mercados,
+                    centros de entretenimiento, avenidas troncales, rotondas y, en general, lugares de gran
+                    concentración humana.</p>
                 <br>
-                <p>Procesamos las fotografías con la Herramienta <a href="https://cyklokoalicia.sk/arrogance/">Arrogance of Space Mapping Tool</a>, que nos permitió determinar los porcentajes del espacio transitable ocupado por los automóviles. Puedes aprender más sobre la herramienta <a href="https://youtu.be/CfXP6KOVBOY">aquí</a>.</p>
+                <p>Procesamos las fotografías con la Herramienta <a href="https://cyklokoalicia.sk/arrogance/">Arrogance
+                        of Space Mapping Tool</a>, que nos permitió determinar los porcentajes del espacio transitable
+                    ocupado por los automóviles. Puedes aprender más sobre la herramienta <a
+                        href="https://youtu.be/CfXP6KOVBOY">aquí</a>.</p>
                 <br>
                 <div class="logo-cont">
                     <div class="logociudatos">
